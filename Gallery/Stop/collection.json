@@ -1,0 +1,240 @@
+[
+  {
+    "date": "9/3/23",
+    "time": "1:15pm",
+    "image": "../../Assets/Stop/1.JPG",
+    "corner": "7th ave and 15th st NW",
+    "y": 40.73925,
+    "x": "-73.99916"
+  },
+  {
+    "date": "9/3/23",
+    "time": "1:32pm",
+    "image": "../../Assets/Walk/3.JPG",
+    "corner": "broadway and 14th st SE",
+    "y": 40.73478,
+    "x": "-73.99076"
+  },
+  {
+    "date": "9/3/23",
+    "time": "3:01pm",
+    "image": "../../Assets/Stop/5.JPG",
+    "corner": "14th st and 4th ave NE",
+    "y": 40.73442,
+    "x": "-73.9899"
+  },
+  {
+    "date": "9/3/23",
+    "time": "3:07pm",
+    "image": "../../Assets/Stop/6.JPG",
+    "corner": "19th st and park ave SW",
+    "y": 40.73773,
+    "x": "-73.98815"
+  },
+  {
+    "date": "9/3/23",
+    "time": "3:08pm",
+    "image": "../../Assets/Stop/7.JPG",
+    "corner": "20th st and park ave SW",
+    "y": 40.73831,
+    "x": "-73.98772"
+  },
+  {
+    "date": "9/3/23",
+    "time": "3:08pm",
+    "image": "../../Assets/Stop/8.JPG",
+    "corner": "20th st and park ave NE"
+  },
+  {
+    "date": "9/3/23",
+    "time": "3:12pm",
+    "image": "../../Assets/Stop/10.JPG",
+    "corner": "Broadway and 21st st NE",
+    "y": 40.73986,
+    "x": "-73.98955"
+  },
+  {
+    "date": "9/3/23",
+    "time": "3:17pm",
+    "image": "../../Assets/Stop/11.JPG",
+    "corner": "6th ave and 21st st NW",
+    "y": 40.74162,
+    "x": "-73.99373"
+  },
+  {
+    "date": "9/3/23",
+    "time": "3:19pm",
+    "image": "../../Assets/Stop/12.JPG",
+    "corner": "6th ave and 20th st SE",
+    "y": 40.74102,
+    "x": "-73.99417"
+  },
+  {
+    "date": "9/3/23",
+    "time": "3:22pm",
+    "image": "../../Assets/Stop/14.JPG",
+    "corner": "7th ave and 19th st SW",
+    "y": 40.74165,
+    "x": "-73.99745"
+  },
+  {
+    "date": "9/3/23",
+    "time": "3:23pm",
+    "image": "../../Assets/Stop/15.JPG",
+    "corner": "7th ave and 19th st NE"
+  },
+  {
+    "date": "9/3/23",
+    "time": "3:28pm",
+    "image": "../../Assets/Stop/16.JPG",
+    "corner": "8th ave and 21st st SE",
+    "y": 40.74400,
+    "x": "-73.99939"
+  },
+  {
+    "date": "9/3/23",
+    "time": "3:33pm",
+    "image": "../../Assets/Stop/17.JPG",
+    "corner": "9th ave and 20th st NW",
+    "y": 40.74464,
+    "x": "-74.00274"
+  },
+  {
+    "date": "9/3/23",
+    "time": "3:34pm",
+    "image": "../../Assets/Stop/18.JPG",
+    "corner": "9th ave and 21st st NW",
+    "y": 40.74522,
+    "x": "-74.00231"
+  },
+  {
+    "date": "9/3/23",
+    "time": "3:35pm",
+    "image": "../../Assets/Stop/19.JPG",
+    "corner": "9th ave and 22nd st NW",
+    "y": 40.74584,
+    "x": "-74.00186"
+  },
+  {
+    "date": "9/3/23",
+    "time": "3:36pm",
+    "image": "../../Assets/Stop/20.JPG",
+    "corner": "9th ave and 23rd st SW",
+    "y": 40.74651,
+    "x": "-74.00139"
+  },
+  {
+    "date": "9/3/23",
+    "time": "1.15pm",
+    "image": "../../Assets/Stop/21.JPG",
+    "corner": "9th ave and 23rd st SW"
+  },
+  {
+    "date": "9/3/23",
+    "time": "3:36pm",
+    "image": "../../Assets/Stop/22.JPG",
+    "corner": "9th ave and 23rd st SW"
+  },
+  {
+    "date": "9/3/23",
+    "time": "3:37pm",
+    "image": "../../Assets/Stop/23.JPG",
+    "corner": "9th ave and 24th st NE",
+    "y": 40.74717,
+    "x": "-74.00087"
+  },
+  {
+    "date": "9/3/23",
+    "time": "3:37pm",
+    "image": "../../Assets/Stop/24.JPG",
+    "corner": "9th ave and 24th st NE"
+  },
+  {
+    "date": "9/3/23",
+    "time": "3:43pm",
+    "image": "../../Assets/Stop/25.JPG",
+    "corner": "10th ave and 26th st SW",
+    "y": 40.74959,
+    "x": "-74.00278"
+  },
+  {
+    "date": "9/3/23",
+    "time": "3:43pm",
+    "image": "../../Assets/Stop/26.JPG",
+    "corner": "10th ave and 26th st SW"
+  },
+  {
+    "date": "9/3/23",
+    "time": "4:04pm",
+    "image": "../../Assets/Stop/38.JPG",
+    "corner": "9th ave and 16th st SE",
+    "y": 40.74229,
+    "x": "-74.00443"
+  },
+  {
+    "date": "9/3/23",
+    "time": "4:04pm",
+    "image": "../../Assets/Stop/39.JPG",
+    "corner": "9th ave and 15th st NW",
+    "y": 40.74163,
+    "x": "-74.00482"
+  },
+  {
+    "date": "9/3/23",
+    "time": "3:47pm",
+    "image": "../../Assets/Stop/30.JPG",
+    "corner": "10th ave and 23rd st NE",
+    "y": 40.74768,
+    "x": "-74.00418"
+  },
+  {
+    "date": "9/3/23",
+    "time": "3:50pm",
+    "image": "../../Assets/Stop/31.JPG",
+    "corner": "11th ave and 23rd st SE",
+    "y": 40.74883,
+    "x": "-74.00695"
+  },
+  {
+    "date": "9/3/23",
+    "time": "3:50pm",
+    "image": "../../Assets/Stop/32.JPG",
+    "corner": "11th ave and 23rd st SE"
+  },
+  {
+    "date": "9/3/23",
+    "time": "3:56pm",
+    "image": "../../Assets/Stop/33.JPG",
+    "corner": "10th ave and 21st st SE",
+    "y": 40.74639,
+    "x": "-74.00509"
+  },
+  {
+    "date": "9/3/23",
+    "time": "3:56pm",
+    "image": "../../Assets/Stop/34.JPG",
+    "corner": "10th ave and 21st st SE"
+  },
+  {
+    "date": "9/3/23",
+    "time": "3:56pm",
+    "image": "../../Assets/Stop/35.JPG",
+    "corner": "10th ave and 21st st SW"
+  },
+  {
+    "date": "9/3/23",
+    "time": "3:58pm",
+    "image": "../../Assets/Stop/36.JPG",
+    "corner": "10th ave and 18th st SE",
+    "y": 40.74465,
+    "x": "-74.00639"
+  },
+  {
+    "date": "9/3/23",
+    "time": "3:58pm",
+    "image": "../../Assets/Stop/37.JPG",
+    "corner": "10th ave and 16th st SW",
+    "y": 40.74347,
+    "x": "-74.00724"
+  }
+]
