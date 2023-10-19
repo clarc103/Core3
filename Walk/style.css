@@ -1,0 +1,157 @@
+html {
+    color: black;
+}
+
+body {
+    background-color: black;
+}
+
+.walk {
+  text-align: center;
+  padding: 2%;
+  width: 5%;
+  position: fixed;
+  right: 5.5%;
+  top: 9%;
+}
+
+.stop {
+  text-align: center;
+  padding: 2%;
+  width: 5%;
+  position: fixed;
+  left: 5.5%;
+  top: 9%;
+}
+
+.stop:hover {
+    animation: blink 1s steps(1, end) infinite;  
+    cursor: pointer;   
+    animation: blink 1s infinite;
+
+}
+
+.walk {
+    animation: blink 1s steps(1, end) infinite;    
+    cursor: pointer; 
+    animation: blink 1s infinite;
+}
+
+.walk:hover {
+  animation: none;   
+  cursor: pointer; 
+}
+
+@keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  #gen-img {
+    width: 35%;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  #Button {
+    border-radius: 22px;
+    font-size: 16px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 4px;
+    cursor: pointer;
+    width: 25%;
+    height: 50px;
+    text-decoration: none;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    width: fit-content;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding: 14px 28px;
+    cursor: pointer;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    border: 2px solid white;
+    transition: color 0.5s, border 0.5s;
+  }
+
+  #Button:hover {
+    background-color: transparent;
+    border: 2px solid rgb(229, 79, 69);
+    color: rgb(229, 79, 69);
+    transition: color 0.5s, border 0.5s;
+}
+
+
+a {
+  color: white;
+}
+
+
+/* menus */
+
+.menu {
+  color: white;
+  font-size: 162%;
+  font-family: sans-serif;
+}
+
+.map:hover {
+  color: rgb(243, 71, 71);
+  cursor: pointer;
+  transition: color 0.5s;
+}
+
+.gallery:hover {
+  color: rgb(243, 71, 71);
+  cursor: pointer;
+  transition: color 0.5s;
+}
+
+.about:hover {
+  color: rgb(243, 71, 71);
+  cursor: pointer;
+  transition: color 0.5s;
+}
+
+
+.map {
+  position: absolute;
+  top: 70%;
+  right: 8.5%;
+  transition: color 0.5s;
+  transform: rotate(90deg);
+  color: white;
+}
+
+.gallery {
+  position: absolute;
+  top: 53%;
+  right: 7.5%;
+  transition: color 0.5s;
+  transform: rotate(90deg);
+  color: white;
+}
+
+.about {
+  position: absolute;
+  top: 36%;
+  right: 8%;
+  transition: color 0.5s;
+  transform: rotate(90deg);
+  color: white;
+}
+
