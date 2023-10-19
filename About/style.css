@@ -1,0 +1,296 @@
+
+body {
+    background-color: black;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    width: auto;
+    color: white;
+  }
+
+
+  .one {
+    width: 55%;
+    margin-top: 10%;
+  }
+
+  .two {
+    width: 55%;
+    padding-top: 2%;
+  }
+
+  .three {
+    width: 55%;
+    padding-top: 2%;
+  }
+
+  .four {
+    width: 55%;
+    padding-top: 2%;
+  }
+
+  .five {
+    width: 26.8%;
+    padding-top: 1.9%; 
+    padding-right: 2.1%;
+  }
+
+  .six {
+    width: 26%;
+    padding-top: 1.9%; 
+  }
+
+  .seven {
+    width: 26.8%;
+    padding-top: 1.9%; 
+    padding-right: 2.1%;
+  }
+
+  .eight {
+    width: 26%;
+    padding-top: 1.9%; 
+  }
+
+  .nine {
+    width: 26.8%;
+    padding-top: 1.9%; 
+    padding-right: 2.1%;
+  }
+
+  .ten {
+    width: 26%;
+    padding-top: 1.9%; 
+  }
+
+  .eleven {
+    width: 26.8%;
+    padding-top: 1.9%; 
+    padding-right: 2.1%;
+  }
+
+  .twelve {
+    width: 26%;
+    padding-top: 1.9%; 
+  }
+
+  .thirteen {
+    width: 26.8%;
+    padding-top: 1.9%; 
+    padding-right: 2.1%;
+  }
+
+  .fourteen {
+    width: 26%;
+    padding-top: 1.9%; 
+  }
+
+  .fifteen {
+    width: 55%;
+    padding-top: 2%;
+  }
+
+  .sixteen {
+    width: 55%;
+    padding-top: 2%;
+  }
+
+  
+
+  .pics {
+    text-align: center;
+  }
+
+  .intro {
+    width: 54%;
+    color: white;
+    text-align: center;
+    font-size: 23px;
+    line-height: 140%;
+    padding-top: 23%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  /* menus */
+  
+  .menu {
+    color: white;
+    font-size: 165%;
+    font-family: sans-serif;
+  }
+  
+  .map:hover {
+    color: rgb(243, 71, 71);
+    cursor: pointer;
+    transition: color 0.5s
+  }
+  
+  .random:hover {
+    color: rgb(243, 71, 71);
+    cursor: pointer;
+    transition: color 0.5s
+  }
+  
+  .gallery:hover {
+    color: rgb(243, 71, 71);
+    cursor: pointer;
+    transition: color 0.5s
+  }
+  
+  
+  .map {
+    position: absolute;
+    top: 29.5%;
+    left: 39%;
+    transition: color 0.5s;
+  }
+  
+  .random {
+    position: absolute;
+    top: 29.5%;
+    left: 46%;
+    transition: color 0.5s;
+  }
+  
+  .gallery {
+    position: absolute;
+    top: 29.5%;
+    right: 39%;
+    transition: color 0.5s;
+  }
+  
+  .sec {
+    padding-bottom: 11%;
+  }
+  
+  .reviews {
+    color: white;
+    margin-left: 22.5%;
+    padding-top: 7%;
+    width: 55%;
+  }
+
+  .pfp {
+    width: 8%;
+    float: left;
+  }
+
+  .name {
+    font-size: 160%;
+    width: 20%;
+    float: left;
+    padding-left: 3%;
+    padding-top: 2%;
+  }
+
+  .review {
+    font-size: 120%;
+    float: left;
+    padding-top: 2%;
+    font-weight: 100;
+    line-height: 30px;
+    padding-bottom: 5%;
+  }
+
+
+  .mainb {
+    font-size: 200px;
+    color: black;
+    height: 800px;
+  }
+
+
+  .title {
+    font-size: 210%;
+    float: left;
+  }
+
+  .stars {
+    width: 27%;
+    float: left;
+    padding-left: 4%;
+    padding-top: 0.2%;
+
+  }
+
+  .star {
+    width: 15%;
+    float: left;
+  }
+
+  .top {
+    padding-top: 3%;
+    float: left;
+  }
+
+  .gist {
+    float: left;
+    margin-left: 3%;
+    font-weight: 500;
+    font-size: 120%;
+  }
+
+  .mid {
+    padding-top: 3.5%;
+    float: left;
+  }
+
+  
+    /* homebuttons */
+    
+    .walk {
+      text-align: center;
+      padding: 2%;
+      width: 5.95%;
+      height: auto;
+      position:absolute;
+      right: 41.55%;
+      top: 2%;
+  }
+  
+  .stop {
+      text-align: center;
+      padding: 2%;
+      width: 5.95%;
+      height: auto;
+      position:absolute;
+      left: 40.55%;
+      top: 2%;
+  }
+  
+  .stop {
+      cursor: pointer;   
+  
+  }
+  
+  .stop:hover {
+    animation: none!important;
+  }
+  
+  .stop:hover {
+      animation: blink 1s steps(1, end) infinite;  
+      cursor: pointer;   
+      animation: blink 1s infinite;
+  
+  }
+  
+  .walk:hover {
+      animation: blink 1s steps(1, end) infinite;    
+      cursor: pointer; 
+      animation: blink 1s infinite;
+  }
+  
+  @keyframes blink {
+      0% {
+        opacity: 1;
+      }
+      50% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
