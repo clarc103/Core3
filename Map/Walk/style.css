@@ -1,0 +1,163 @@
+:root {
+	--size-1: 25px;
+}
+
+body {
+	font: 30px/1 monospace;
+	background-color: black;
+	overflow-y: hidden;
+}
+
+/* Always set the map height explicitly to define the size of the div element that contains the map. */
+#map {
+  width: 70vw;
+  height: 62vh;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 16.6%;
+}
+.gm-style .gm-style-iw-c {
+	border-radius: 0;
+	margin-right: 0%;
+	font-family: monospace;
+	margin: 0%;
+}
+
+
+/* popup exit button */
+.gm-ui-hover-effect>span {
+	width: 25px !important;
+	height: 20px !important;
+	background: red !important;
+}
+
+.gm-ui-hover-effect {
+	right: 6px!important;
+	top: 0px!important;
+}
+
+.gm-control-active,
+.gm-svpc,
+.gmnoprint,
+.gm-style-cc,
+img[alt="Google"] {
+	display: none !important;
+}
+
+
+ul {
+	color: red;
+	list-style-type: none;
+	line-height: 160%;
+	padding: 0%;
+	margin: 0%;
+	
+}
+
+
+/* menus */
+
+a {
+	color: white;
+}
+
+.menu {
+	color: white;
+	font-size: 89%;
+	font-family: sans-serif;
+  }
+  
+  .gallery:hover {
+	color: rgb(243, 71, 71);
+	cursor: pointer;
+	transition: color 0.5s;
+  }
+  
+  .random:hover {
+	color: rgb(243, 71, 71);
+	cursor: pointer;
+	transition: color 0.5s;
+  }
+  
+  .about:hover {
+	color: rgb(243, 71, 71);
+	cursor: pointer;
+	transition: color 0.5s;
+  }
+  
+  
+  .gallery {
+	position: absolute;
+	top: 12%;
+	right: 16%;
+	transition: color 0.5s
+  }
+  
+  .random {
+	position: absolute;
+	top: 12%;
+	right: 25%;
+	transition: color 0.5s
+  }
+  
+  .about {
+	position: absolute;
+	top: 12%;
+	right: 35%;
+	transition: color 0.5s
+  }
+  
+  
+  
+	/* homebuttons */
+	
+	.walk {
+	  text-align: center;
+	  padding: 2%;
+	  width: 5.95%;
+	  height: auto;
+	  position:absolute;
+	  right: 41.55%;
+	  top: 2%;
+  }
+  
+  .stop {
+	  text-align: center;
+	  padding: 2%;
+	  width: 5.95%;
+	  height: auto;
+	  position:absolute;
+	  left: 40.55%;
+	  top: 2%;
+  
+  }
+  
+  .stop:hover {
+	  animation: blink 1s steps(1, end) infinite;  
+	  cursor: pointer;   
+	  animation: blink 1s infinite;
+  
+  }
+  
+  .walk {
+	  animation: blink 1s steps(1, end) infinite;  
+	  cursor: pointer;   
+	  animation: blink 1s infinite;
+  
+  }
+  
+  .walk:hover {
+	animation: none;
+  }
+  
+  @keyframes blink {
+	  0% {
+		opacity: 1;
+	  }
+	  50% {
+		opacity: 0;
+	  }
+	  100% {
+		opacity: 1;
+	  }
+	}
