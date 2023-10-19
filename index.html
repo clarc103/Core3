@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="script.js" defer></script>
+    <link href="style.css" rel="stylesheet">
+    <link rel="icon" href="../../Assets/icon.png">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  </head>
+
+
+  <body>
+    <div class="center">
+      <div class="signs">
+        <a href="Stop/index.html">
+          <img src="Assets/Stopc.png" id="stopHoverElement" class="stop" width="100%" style="padding: 2%;">
+        </a>
+        <audio id="stopAudio" style="visibility: hidden;">
+          <source src="Assets/Wait2.mp3" type="audio/mpeg">
+        </audio>
+        <a href="Walk/index.html">
+          <img src="Assets/Walkc.png" id="walkHoverElement" class="walk" width="100%">
+        </a>
+        <audio id="walkAudio" style="visibility: hidden;">
+          <source src="Assets/walk.mp3" type="audio/mpeg">
+        </audio>
+      </div>
+    </div>
+  
+    <script>
+      var stopHoverArea = document.getElementById('stopHoverElement');
+      var stopAudio = document.getElementById('stopAudio');
+      stopHoverArea.onmouseover = function () {
+        playAudio('stopAudio');
+      };
+      stopHoverArea.onmouseout = function () {
+        pauseAudio('stopAudio');
+      };
+  
+      var walkHoverArea = document.getElementById('walkHoverElement');
+      var walkAudio = document.getElementById('walkAudio');
+      walkHoverArea.onmouseover = function () {
+        playAudio('walkAudio');
+      };
+      walkHoverArea.onmouseout = function () {
+        pauseAudio('walkAudio');
+      };
+  
+      function playAudio(audioId) {
+        var audio = document.getElementById(audioId);
+        audio.play();
+      }
+  
+      function pauseAudio(audioId) {
+        var audio = document.getElementById(audioId);
+        audio.pause();
+        audio.currentTime = 0;
+      }
+    </script>
+  </body>
+  
+
+  <!-- <body>
+
+    <div class="center"> 
+    <div class="signs">
+        <a href="Stop/index.html"> 
+            <img src="Assets/Stopc.png" id="hoverElement" class="stop" width="100%" style="padding: 2%;" >
+        </a>
+        <audio id=audio style="visibility:hidden;">
+          <source src="Assets/wait.mp3" type='audio/mpeg; codecs="mp3"'>
+       </audio>
+        <a href="Walk/index.html">
+            <img src="Assets/Walkc.png" id="hoverElement" class="walk" width="100%"  >
+        </a>
+        <audio id=audio style="visibility:hidden;">
+          <source src="Assets/walk.mp3" type='audio/mpeg; codecs="mp3"'>
+       </audio>
+    </div>
+    </div>
+
+    <script>
+      var hoverArea = document.getElementById('hoverElement');
+      var audio = document.getElementById('audio');
+      hoverArea.onmouseover= function(){
+        audio.play();
+      }
+      hoverArea.onmouseout= function(){
+        audio.pause();
+      }     
+        </script>
+
+  </body> -->
+
+  
+
+</html>

@@ -1,0 +1,52 @@
+html {
+    color: black;
+}
+
+body {
+    background-color: black;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.walk, .stop {
+    padding-left: 18%;
+}
+
+.signs {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 50%;
+}
+
+
+.stop:hover {
+    animation: blink 1s steps(1, end) infinite;  
+    cursor: pointer;   
+    animation: blink 1s infinite;
+
+}
+
+.walk:hover {
+    animation: blink 1s steps(1, end) infinite;    
+    cursor: pointer; 
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
